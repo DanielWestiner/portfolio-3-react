@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function About() {
+export default function Resume() {
   return (
     <div>
       <h1>👋 Hi I'm Daniel Westiner</h1>
