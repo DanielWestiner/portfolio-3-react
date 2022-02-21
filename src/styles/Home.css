@@ -1,5 +1,5 @@
 .intro {
-    display: flex;
+    display:flex;
     height: 100vh;
     background-color: aliceblue;
     padding-top: unset;
@@ -43,7 +43,7 @@
 
 .intro-title-wrapper {
     height: 100%;
-    animation: move 8s ease-in-out infinite alternate;
+    animation: move 10s ease-in-out infinite alternate;
     display: flex;
     padding: 5px 5px;
 }

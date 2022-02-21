@@ -1,7 +1,8 @@
+import profileImg from "./images/profilepic.jpg"
 export const projects = [
     {
         id:1,
-        img: '/images/project-img-1',
+        img: '',
         link: 'https://github.com/DanielWestiner/ecommerce-back-end'
     },
     {
