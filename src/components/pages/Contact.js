@@ -1,6 +1,5 @@
 import React from 'react';
 import '../../styles/Contact.css'
-import Footer from '../Footer'
 
 export default function Contact() {
   return (
@@ -20,30 +19,30 @@ export default function Contact() {
                   <div className="row">
                     <div className="col-md-12">
                       <div className="md-form mb-0">
-                        <input type="text" id="name" name="name" className="form-control" />
-                        <label htmlFor="name" className="">Your name</label>
+                        <input type="text" id="name" name="name" className="form-control" required placeholder='Your Name'></input>
+                        <label htmlFor="name" className=""></label>
                       </div>
                     </div>
                     <div className="col-md-12">
                       <div className="md-form mb-0">
-                        <input type="text" id="email" name="email" className="form-control" />
-                        <label htmlFor="email" className="">Your email</label>
+                        <input type="text" id="email" name="email" className="form-control" placeholder='Email' required aria-required="true" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,6}$"></input>
+                        <label htmlFor="email" className=""></label>
                       </div>
                     </div>
                   </div>
                   <div className="row">
                     <div className="col-md-12">
                       <div className="md-form mb-0">
-                        <input type="text" id="subject" name="subject" className="form-control" />
-                        <label htmlFor="subject" className="">Subject</label>
+                        <input type="text" id="subject" name="subject" className="form-control" required aria-required="true" placeholder='Subject'></input>
+                        <label htmlFor="subject" className=""></label>
                       </div>
                     </div>
                   </div>
                   <div className="row">
                     <div className="col-md-12">
                       <div className="md-form">
-                        <textarea type="text" id="message" name="message" rows="2" className="form-control md-textarea"></textarea>
-                        <label htmlFor="message">Your message</label>
+                        <textarea type="text" id="message" name="message" rows="2" className="form-control md-textarea" placeholder='Your Message...'></textarea>
+                        <label htmlFor="message"></label>
                       </div>
                     </div>
                   </div>
