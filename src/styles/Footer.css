@@ -1,0 +1,26 @@
+footer {
+    background: rgb(88, 89, 88);
+    color: white;
+    text-align: center;
+    padding: 2.5em 0;
+    viewport-fit:inherit;
+}
+
+/* ul {
+    list-style: none;
+} */
+
+.social-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 2em 0;
+}
+
+.social-list-item {
+    margin: 0 .5em;
+}
+
+footer a {
+    color: inherit;
+}

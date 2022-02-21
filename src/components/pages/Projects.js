@@ -6,6 +6,7 @@ import img3 from "../../images/project-img-3.jpg"
 import img4 from "../../images/project-img-4.jpg"
 import img5 from "../../images/project-img-5.jpg"
 import img6 from "../../images/project-img-6.jpg"
+import Footer from '../Footer'
 
 export default function Projects() {
   return (

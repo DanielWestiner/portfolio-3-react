@@ -3,6 +3,8 @@ import '../../styles/Home.css'
 import profileImg from "../../images/profilepic.jpg"
 import Projects from './Projects';
 import Contact from './Contact';
+import Footer from '../Footer';
+
 
 export default function Home() {
   return (
@@ -32,16 +34,19 @@ export default function Home() {
       <div className='intro-right'>
         <div className='intro-bg'></div>
         <div className = 'container'>
-          {/* <img className='profileImg .img-responsive' src={profileImg} alt=''></img> */}
         </div>
       </div>
     </div>
     {/* Single Page Functionality ------- Portforlio Section */}
-    <div id='projects'>
+    <div className='' id='projects'>
       <Projects />
     </div>
+    {/* Single Page Functionality ------- Contact Section */}
     <div id='contact'>
       <Contact />
+    </div>
+    <div>
+      <Footer />
     </div>
     </>
   );

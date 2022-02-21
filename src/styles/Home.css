@@ -30,10 +30,12 @@
 .introduction {
     font-size: 30px;
     font-weight: 300;
+    margin-left: 50px;
 }
 
 .intro-name {
     font-size: 60px;
+    margin-left: 20rem;
 }
 
 .intro-title {

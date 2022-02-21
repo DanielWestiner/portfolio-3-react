@@ -1,24 +1,30 @@
 import React from 'react';
 import '../../styles/Contact.css'
+import Footer from '../Footer'
 
 export default function Contact() {
   return (
     <>
-      <div className=' contact-page container-fluid'>
-        <div className='contact-right row'>
+    <div className="contact container-fluid">
+      <div className='contact-left'>
+        <div className='contact-bg'></div>
+        <div className = 'container'>
+        </div>
+      </div>
+      <div className='contact-right row'>
           <section className="mb-4">
-            <h2 className=" font-weight-bold text-center my-4">Get in Contact!</h2>
+            <h2 className=" font-weight-bold text-left my-4 welcome">📬 Get in Contact!</h2>
             <div className="row">
               <div className="col-md-9">
                 <form id="contact-form" name="contact-form">
                   <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-md-12">
                       <div className="md-form mb-0">
                         <input type="text" id="name" name="name" className="form-control" />
                         <label htmlFor="name" className="">Your name</label>
                       </div>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-12">
                       <div className="md-form mb-0">
                         <input type="text" id="email" name="email" className="form-control" />
                         <label htmlFor="email" className="">Your email</label>
@@ -47,28 +53,10 @@ export default function Contact() {
                 </div>
                 <div className="status"></div>
               </div>
-              <div className="col-md-3 text-center">
-                <ul className="list-unstyled mb-0">
-                  <li><i className="fas fa-map-marker-alt fa-2x"></i>
-                    <p>Philadelphia, PA 19125</p>
-                  </li>
-
-                  <li><i className="fas fa-phone mt-4 fa-2x"></i>
-                    <p>(484) 832-4374</p>
-                  </li>
-
-                  <li><i className="fas fa-envelope mt-4 fa-2x"></i>
-                    <p>daniel.westiner@gmail.com</p>
-                  </li>
-                </ul>
-              </div>
             </div>
           </section>
         </div>
-        <div className='contact-left row'>
-          <div className='contact-bg'></div>
-        </div>
-      </div>
+    </div>
     </>
   );
 }
