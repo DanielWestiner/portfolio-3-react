@@ -12,7 +12,7 @@ export default function Projects() {
     <div className='projects'>
       <div>
         <h1 className='projects-intro'>A Collection of My Work</h1>
-        <p>
+        <p className='project-desc'>
           Here's a sampling of what I've been working on recently:
         </p>
       </div>

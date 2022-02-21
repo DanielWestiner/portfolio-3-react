@@ -44,8 +44,8 @@
 .intro-title-wrapper {
     height: 100%;
     animation: move 10s ease-in-out infinite alternate;
-    display: flex;
-    padding: 5px 5px;
+    /* display: flex; */
+    /* padding: 25px 25px; */
 }
 
 @keyframes move {
