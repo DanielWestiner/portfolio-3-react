@@ -1,6 +1,9 @@
+.nav-tabs {
+    background-color: #fad9c6;
+}
 .intro {
     display:flex;
-    height: 100vh;
+    height: 105vh;
     background-color: aliceblue;
     padding-top: unset;
 }
@@ -45,19 +48,21 @@
 
 .intro-title-wrapper {
     height: 100%;
-    animation: move 10s ease-in-out infinite alternate;
+    animation: move 10s ease-in-out infinite normal;
     /* display: flex; */
     /* padding: 25px 25px; */
 }
 
 @keyframes move {
-    14.2857142857%{ transform: translateY(-50px);}
-    28.5714285714%{ transform: translateY(-100px);}
-    42.8571428571%{ transform: translateY(-150px);}
-    57.1428571428%{ transform: translateY(-200px);}
-    71.4285714285%{ transform: translateY(-250px);}
-    85.7142857142%{ transform: translateY(-300px);}
-    100%{ transform: translateY(-350px);}
+    12.5%{ transform: translateY(-50px);}
+    25%{ transform: translateY(-100px);}
+    37.5%{ transform: translateY(-150px);}
+    50%{ transform: translateY(-200px);}
+    62.5%{ transform: translateY(-250px);}
+    75%{ transform: translateY(-300px);}
+    87.5%{ transform: translateY(-350px);}
+    100%{ transform: translateY(-400px);}
+
 }
 
 .intro-title-item {

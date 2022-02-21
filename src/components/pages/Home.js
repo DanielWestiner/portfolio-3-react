@@ -38,7 +38,7 @@ export default function Home() {
       </div>
     </div>
     {/* Single Page Functionality ------- Portforlio Section */}
-    <div className='' id='projects'>
+    <div id='projects'>
       <Projects />
     </div>
     {/* Single Page Functionality ------- Contact Section */}

@@ -1,11 +1,11 @@
 import React from 'react';
 import '../../styles/Projects.css'
-import img1 from "../../images/project-img-1.jpg"
-import img2 from "../../images/project-img-2.jpg"
-import img3 from "../../images/project-img-3.jpg"
-import img4 from "../../images/project-img-4.jpg"
-import img5 from "../../images/project-img-5.jpg"
-import img6 from "../../images/project-img-6.jpg"
+import img1 from "../../images/project-img-1.png"
+import img2 from "../../images/project-img-2.png"
+import img3 from "../../images/project-img-3.png"
+import img4 from "../../images/project-img-4.png"
+import img5 from "../../images/project-img-5.png"
+import img6 from "../../images/project-img-6.png"
 import Footer from '../Footer'
 
 export default function Projects() {
