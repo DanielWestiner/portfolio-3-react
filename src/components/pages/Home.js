@@ -1,14 +1,17 @@
 import React from 'react';
 import '../../styles/Home.css'
 import profileImg from "../../images/profilepic.jpg"
+import Projects from './Projects';
+import Contact from './Contact';
 
 export default function Home() {
   return (
+    <>
     <div className="intro container-fluid">
       <div className='intro-left row'>
       <img className='profileImg .img-responsive mx-auto col-sm-5' src={profileImg} alt=''></img>
         <div className='intro-left-wrapper container-fluid'>
-          <h2 className='introduction row'>👋  Hi, my name is </h2>
+          <h2 className='introduction row' id='about'>👋  Hi, my name is </h2>
           <h1 className='intro-name row'>Daniel Westiner</h1>
             <div className='intro-title row'>
               <div className='intro-title-wrapper row'>
@@ -30,8 +33,16 @@ export default function Home() {
         <div className='intro-bg'></div>
         <div className = 'container'>
           {/* <img className='profileImg .img-responsive' src={profileImg} alt=''></img> */}
-          </div>
+        </div>
       </div>
     </div>
+    {/* Single Page Functionality ------- Portforlio Section */}
+    <div id='projects'>
+      <Projects />
+    </div>
+    <div id='contact'>
+      <Contact />
+    </div>
+    </>
   );
 }
